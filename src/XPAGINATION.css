@@ -1,0 +1,36 @@
+*{margin: 0px;padding: 0px;}
+header {
+    background-color: #f4f4f4;
+    
+    color: #2b4560;
+    height: 50px;
+  }
+
+.Pagination{
+    background-color: #f4f4f4
+}  
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+  }
+  th {
+    background-color: #009879;
+    color: #fff;
+  }
+  th, td {
+    border: 1px solid black;
+    text-align: center;
+    padding: 5px;
+    
+  }
+  
+  tr:nth-child(even) {
+    background-color: #eee;
+    color: #000;
+  }
+  
+   tr:nth-child(odd) {
+    background-color: #fff;
+  }
+  
