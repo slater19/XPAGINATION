@@ -28,7 +28,8 @@ const XPAGINATION = () => {
         console.log(data);
         // TODO: CRIO_TASK_MODULE_CART - Pass Bearer token inside "Authorization" header to get data from "GET /cart" API and return the response data
       } catch (error) {
-          console.error("failed to fetch data ",error);
+        //   console.error("failed to fetch data ",error);
+        alert("failed to fetch data")
       }
   
     };
