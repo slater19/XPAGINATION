@@ -32,7 +32,7 @@ const Pagination = ({postsPerPage,length,setCurrentPage,currentPage}) => {
                  <a className="btn"onClick={() => {
                  getPrevious()   
                 }}>
-                    Previous 
+                      <button >Previous</button>  
                 </a>
                 </li>
                     <li  className="btn">
@@ -42,7 +42,8 @@ const Pagination = ({postsPerPage,length,setCurrentPage,currentPage}) => {
                 <li >
                 <a className="btn"onClick={() => {
                     getNext()  
-                }}>Next
+                }}>
+                     <button >Next</button>  
                 </a></li>
             </ul>
         </nav>
