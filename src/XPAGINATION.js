@@ -45,7 +45,7 @@ const XPAGINATION = () => {
     </header>
     <table>
     <tr>
-      <th>Id</th>
+      <th>ID</th>
       <th>Name</th>
       <th>Email</th>
       <th>Role</th>
