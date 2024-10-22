@@ -44,24 +44,31 @@ const XPAGINATION = () => {
       <h1>Employee Data Table</h1>
     </header>
     <table>
+    <thead>    
     <tr>
       <th>ID</th>
       <th>Name</th>
       <th>Email</th>
       <th>Role</th>
     </tr>
+    </thead>
+
     {/* <caption>Employee details</caption> */}
+    <tbody>
     {currentItems.map((employee)=>{
     const {id,name,email,role} = employee
     return (
+   
     <tr>
       <td>{id}</td>
       <td>{name}</td>
       <td>{email}</td>
       <td>{role}</td>
-    </tr>)
+    </tr>
+    )
     
-    })}
+    })}  </tbody>
+
   </table>
   <Pagination
         length={employees.length}
